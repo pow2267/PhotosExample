@@ -114,5 +114,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.tableView.reloadSections(IndexSet(0...0), with: .automatic)
         }
     }
+    
+    // MARK: - Navigation
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let imageZoomViewController: ImageZoomViewController = segue.destination as? ImageZoomViewController else {
+            return
+        }
+        
+        guard let cell: UITableViewCell = sender as? UITableViewCell else {
+            return
+        }
+        
+        guard let index: IndexPath = self.tableView.indexPath(for: cell) else {
+            return
+        }
+        
+        imageZoomViewController.asset = self.fetchResult[index.row]
+    }
 }
 

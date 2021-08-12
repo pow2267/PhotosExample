@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76220A6426C4F95300A71B24 /* ImageZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76220A6326C4F95300A71B24 /* ImageZoomViewController.swift */; };
 		76A0EF2026C2A07400995575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0EF1F26C2A07400995575 /* AppDelegate.swift */; };
 		76A0EF2226C2A07400995575 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0EF2126C2A07400995575 /* SceneDelegate.swift */; };
 		76A0EF2426C2A07400995575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0EF2326C2A07400995575 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76220A6326C4F95300A71B24 /* ImageZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomViewController.swift; sourceTree = "<group>"; };
 		76A0EF1C26C2A07400995575 /* PhotosExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A0EF1F26C2A07400995575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A0EF2126C2A07400995575 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				76A0EF2826C2A07700995575 /* Assets.xcassets */,
 				76A0EF2A26C2A07700995575 /* LaunchScreen.storyboard */,
 				76A0EF2D26C2A07700995575 /* Info.plist */,
+				76220A6326C4F95300A71B24 /* ImageZoomViewController.swift */,
 			);
 			path = PhotosExample;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				76A0EF2426C2A07400995575 /* ViewController.swift in Sources */,
 				76A0EF2026C2A07400995575 /* AppDelegate.swift in Sources */,
 				76A0EF2226C2A07400995575 /* SceneDelegate.swift in Sources */,
+				76220A6426C4F95300A71B24 /* ImageZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
